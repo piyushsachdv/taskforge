@@ -194,6 +194,29 @@ kubectl get deployment worker -n taskforge -o jsonpath="{.spec.template.spec.con
 - GitHub Actions screenshot showing a green pipeline
 - Optional screenshot of SHA-tagged deployment images
 
+## Screenshots
+
+### Argo CD
+![Argo CD Healthy and Synced](docs/screenshots/argocd-app-synced-healthy.png)
+
+### GitHub Actions
+![GitHub Actions Green Pipeline](docs/screenshots/github-actions-green-pipeline.png)
+
+### Kubernetes Pods
+![Kubernetes Pods in taskforge namespace](docs/screenshots/kubernetes-pods-taskforge.png)
+
+### Kubernetes Deployments
+![Kubernetes Deployments in taskforge namespace](docs/screenshots/kubernetes-deployments-taskforge.png)
+
+### SHA-Tagged Deployment Images
+![SHA Tagged Images](docs/screenshots/sha-tagged-images.png)
+
+### Frontend Dashboard
+![TaskForge Dashboard](docs/screenshots/frontend-dashboard-taskforge.png)
+
+### Frontend Login
+![TaskForge Login](docs/screenshots/frontend-login-taskforge.png)
+
 ## Additional Documentation
 
 See [ARCHITECTURE.md](C:\Users\Piyush\Desktop\root\ARCHITECTURE.md) for scaling strategy, indexing, Redis failure handling, and environment design.
