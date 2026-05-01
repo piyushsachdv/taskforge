@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: piyushsachdv/frontend:latest
+          image: piyushsachdv/frontend:3b0714768fa5ecb94f32853312e91149920f0535
           imagePullPolicy: Always
           ports:
             - containerPort: 3000

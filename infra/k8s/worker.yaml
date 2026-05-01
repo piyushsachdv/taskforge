@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: worker
-          image: piyushsachdv/worker:latest
+          image: piyushsachdv/worker:3b0714768fa5ecb94f32853312e91149920f0535
           imagePullPolicy: Always
           envFrom:
             - configMapRef:
