@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: piyushsachdv/backend:3b0714768fa5ecb94f32853312e91149920f0535
+          image: piyushsachdv/backend:daf5ca5bae06eb3b79c0094109786c530a71ddd8
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
